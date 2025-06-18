@@ -56,7 +56,7 @@ export const AddTask: React.FC<AddTaskProps> = ({ value, onChange, onAddTask, cl
         <textarea
           ref={textareaRef}
           maxLength={1000}
-          placeholder="Add task"
+          placeholder="Добавить задачу"
           value={value}
           onChange={(e) => onChange(e.target.value)}
           onInput={inputHeight}

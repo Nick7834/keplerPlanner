@@ -80,7 +80,7 @@ export const Folders = () => {
     <div className={styles.folder_block}>
 
         <div className={styles.lists_block}>
-            <button className={styles.top} onClick={toggleFolder}>My lists</button>
+            <button className={styles.top} onClick={toggleFolder}>Мои списки</button>
 
             {folder ?
                 <div onClick={handFolderClick}><IoMdAddCircleOutline /></div>

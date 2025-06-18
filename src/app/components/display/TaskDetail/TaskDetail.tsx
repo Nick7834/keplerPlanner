@@ -273,7 +273,7 @@ export const TaskDetail = ({taskDefault, folderId, folderName}: any) => {
     <div className={`${styles.task_detail} ${idDone ? `${styles.taskDone}` : ''}`}>
 
             <div className={styles.top}>
-               <div className={styles.map}><span>My lists</span><IoIosArrowForward /><span>{data?.folder}</span></div>
+               <div className={styles.map}><span>Мои списки</span><IoIosArrowForward /><span>{data?.folder}</span></div>
 
                 <div className={styles.right}>
                       <button onClick={() => taskCheckDone(data?._id)}>{idDone ? <BsCheckCircleFill className={styles.checkActive} /> : <BsCheckCircle />}</button>

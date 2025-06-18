@@ -50,7 +50,7 @@ export const FoldersMob = () => {
         {items.length === 0 && <Loader />}
         <div className={styles.folders_list}>
 
-            <h1>My Lists</h1>   
+            <h1>Мои списки</h1>   
 
             <div className={styles.folders}>
 

@@ -11,10 +11,10 @@ import Link from 'next/link';
 export const MobMenu = () => {
 
     const navs = [
-        {text: 'My day', svg: <FaRegDotCircle />, link: '/planner/myday'},
-        {text: 'Next 7 days', svg: <LuCalendarDays />, link: '/planner/next_seven_days'},
-        {text: 'All my tasks', svg: <TbClipboardList />, link: '/planner/all_my_tasks'},
-        {text: 'Folders', svg: <FaFolder />, link: '/planner/folders_mob'}
+        {text: 'Мой день', svg: <FaRegDotCircle />, link: '/planner/myday'},
+        {text: 'Следующие 7 дней', svg: <LuCalendarDays />, link: '/planner/next_seven_days'},
+        {text: 'Все мои задачи', svg: <TbClipboardList />, link: '/planner/all_my_tasks'},
+        {text: 'Папки', svg: <FaFolder />, link: '/planner/folders_mob'}
     ];
 
     const namePage = usePathname();

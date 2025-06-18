@@ -91,7 +91,7 @@ export const TaskSection = () => {
 
             <div className={`${styles.task_block} ${openRand ? `${styles.active_tasks}` : ''}`}>
 
-                <h3 className={styles.title}>Tasks of the day</h3>
+                <h3 className={styles.title}>Задачи на день</h3>
         
                 <div className={styles.tasks}>
                     {tasksNow.map((task, index) => (

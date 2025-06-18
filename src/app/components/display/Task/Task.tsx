@@ -109,7 +109,7 @@ export const Task = ({ task }: task) => {
                 <span className={styles.check}><BsCheck /></span>
             </label>
             <div className={styles.p_main}>
-               <Link onClick={(e) => e.stopPropagation()} href={`/planner/folder/${task?.folderId}`} className={styles.map}><span>My lists</span><IoIosArrowForward /><span>{task?.folder}</span></Link>
+               <Link onClick={(e) => e.stopPropagation()} href={`/planner/folder/${task?.folderId}`} className={styles.map}><span>Мои списки</span><IoIosArrowForward /><span>{task?.folder}</span></Link>
                <p>{task?.title.length >= 100 ? `${task?.title.substring(0, 100).trim()}...` : task?.title.trim()}</p>
             </div>
         </div>

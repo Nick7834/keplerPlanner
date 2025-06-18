@@ -68,12 +68,12 @@ export const AddFolder = ({ openModalFolder, closeModal }:modalFolder) => {
                 <form>
                   <input 
                     type="text" 
-                    placeholder='Name Folder' 
+                    placeholder='Имя папки' 
                     value={folderCreate}
                     onChange={e => setFolderCreate(e.target.value)}
                   />
 
-                  <button disabled={folderCreate.trim() === ''} onClick={createFolder}>Create</button>
+                  <button disabled={folderCreate.trim() === ''} onClick={createFolder}>Создать</button>
                 </form>
            </div>
 

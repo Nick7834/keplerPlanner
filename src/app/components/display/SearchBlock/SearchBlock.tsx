@@ -52,7 +52,7 @@ export const SearchBlock = () => {
                         )) : 
                     <div className={styles.no_search}>
                         <Image src="/Outer space-bro.svg" width={100} height={100} alt="search" />
-                        <p>Nothing was found!</p>
+                        <p>Ничего не обнаружено!</p>
                     </div>
                     }
                 </div> 

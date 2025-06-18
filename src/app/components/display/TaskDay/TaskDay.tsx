@@ -19,7 +19,7 @@ export const TaskDay = ({task, onclick}: any) => {
 
             <div className={styles.mains}>
               <span>{task?.title}</span>
-              <Link onClick={(e) => e.stopPropagation()} href={`/planner/folder/${task?.folderId}`} className={styles.map}><span>My lists</span><IoIosArrowForward /><span>{task?.folder}</span></Link>
+              <Link onClick={(e) => e.stopPropagation()} href={`/planner/folder/${task?.folderId}`} className={styles.map}><span>Мои списки</span><IoIosArrowForward /><span>{task?.folder}</span></Link>
             </div>
 
         </div>

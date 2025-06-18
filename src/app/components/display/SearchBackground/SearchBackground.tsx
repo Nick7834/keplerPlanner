@@ -71,7 +71,7 @@ export const SearchBackground = () => {
               <IoSearchOutline />
               <input
                 type="text"
-                placeholder="Search Background"
+                placeholder="Поиск фона"
                 value={backgroundSearchs}
                 onChange={(e) => setBackgroundSearchs(e.target.value)}
               />
@@ -85,7 +85,7 @@ export const SearchBackground = () => {
               </p>
             ) : searchInitiated && resultsSearch.length === 0 ? (
               <p className="m-auto col-span-4 font-bold text-white">
-                No results
+                Ничего не найдено
               </p>
             ) : (
               resultsSearch.map((cards, index) => (

@@ -248,7 +248,7 @@ export const TaskDetailModal = () => {
               {loading ? <Skeleton variant="rounded" className='bg-[rgb(231,229,229,0.6)] dark:bg-[rgba(48,48,48,0.9)]' width={158} height={21} />
               :
               <Link onClick={handGoLink} href={`/planner/folder/${data?.folderId}`} className={styles.map}>
-                <span>My lists</span>
+                <span>Мои списки</span>
                 <IoIosArrowForward />
                 <span>{data?.folder}</span>
                </Link> }

@@ -43,7 +43,7 @@ export const Search = ({ value, onChange }:searchTask) => {
 
         <div ref={search} className={`${styles.search} ${searchOpen ? `${styles.active_search}` : ''}`}>
             <button onClick={() => setSearchOpen(!searchOpen)}><FiSearch /></button>
-            <input type="text" value={value} onChange={handleChange} placeholder='Search tasks'/>
+            <input type="text" value={value} onChange={handleChange} placeholder='Поиск'/>
         </div>
 
     </div>

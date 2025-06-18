@@ -97,7 +97,7 @@ export const Login = () => {
 
         <div className={styles.block_right}>
 
-            <h2>Welcome to KeplerPlanner</h2>
+            <h2>Добро пожаловать</h2>
 
             <div className={styles.form_blocks}>
 
@@ -157,11 +157,11 @@ export const Login = () => {
 
       </div>
 
-      <AuthButton name='Log In' />
+      <AuthButton name='Авторизоваться' />
 
     </form>
 
-    <button className={styles.login_button} onClick={() => setActiveReg(true)}>Create Account</button>
+    <button className={styles.login_button} onClick={() => setActiveReg(true)}>Зарегистрироваться</button>
 
                 </div>
 
@@ -269,11 +269,11 @@ export const Login = () => {
 
                     </div>
                       
-                    <AuthButton name='Create Account' />
+                    <AuthButton name='Зарегистрироваться' />
 
                   </form>
 
-                  <button className={styles.login_button}  onClick={() => setActiveReg(false)}>Log in</button>
+                  <button className={styles.login_button}  onClick={() => setActiveReg(false)}>Авторизоваться</button>
 
                 </div>
 
