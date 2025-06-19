@@ -48,7 +48,7 @@ export const Nav = () => {
           selectNextSevenDaysCounts > 99 ? "99+" : selectNextSevenDaysCounts,
       },
       {
-        text: "Все мои задачи",
+        text: "Все задачи",
         svg: <TbClipboardList />,
         link: "/planner/all_my_tasks",
         current: selectAllTaskCount > 99 ? "99+" : selectAllTaskCount,

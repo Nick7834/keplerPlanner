@@ -13,7 +13,7 @@ export const MobMenu = () => {
     const navs = [
         {text: 'Мой день', svg: <FaRegDotCircle />, link: '/planner/myday'},
         {text: 'Следующие 7 дней', svg: <LuCalendarDays />, link: '/planner/next_seven_days'},
-        {text: 'Все мои задачи', svg: <TbClipboardList />, link: '/planner/all_my_tasks'},
+        {text: 'Все задачи', svg: <TbClipboardList />, link: '/planner/all_my_tasks'},
         {text: 'Папки', svg: <FaFolder />, link: '/planner/folders_mob'}
     ];
 
